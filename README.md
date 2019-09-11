@@ -7,5 +7,5 @@ The Micropython code was tested on Pyboard V1.1. The Arduino code was tested on 
 # Sculpture
 Reminiscent of arcade basketball games, the sculpture makes use of the idea of a finite state machine and it 
 consists of a basketball court and hoop. The hoop sways back and forth as a player attempts
-to bounce a small ball into the hoop to rack up points. Each game session lasts for 45 seconds. The score is tracked by a 
-Read, Evaluate, Print, Loop(REPL) prompt on the computer attached to the sculpture. 
+to bounce a small ball into the hoop to rack up points. Each game session lasts for 45 seconds unless the max score of three points is 
+reached. The score is tracked by a Read, Evaluate, Print, Loop(REPL) prompt on the computer attached to the sculpture. 
